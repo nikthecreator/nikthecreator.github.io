@@ -24,7 +24,7 @@ for (i = 0; i < acc.length; i++) {
 
 
 // Slick Slider
-$('.sl').slick({
+$('.sl-first').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   autoplay: true,
