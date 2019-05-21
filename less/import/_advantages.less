@@ -1,0 +1,107 @@
+.wrapp-advantagesv {
+    width: 100%;
+    height: 100%;
+} 
+
+.advantages {
+    width: 1140px;
+    margin: auto;
+    height: 100%;
+    padding-bottom: 30px;
+    &-title {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &-card {
+        width: 260px;
+        height: 100px;
+        margin-top: 30px;
+        background-color: #000;
+        &-img {
+            width: 100%;
+            height: 100%;
+        }
+        &-text {
+            width: 100%;
+            height: 100%;
+            padding-top: 30px;
+        }
+    }
+}
+
+// Media 
+
+@media (min-width: 1200px) {
+    .advantages {
+        width: 1140px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .advantages {
+        width: 768px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   .advantages {
+       &-title {
+           display: flex;
+           justify-content: center;
+       }
+       width: 100%;
+   }
+
+   .advantage-card-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage-card-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.advantage-card {
+    padding-bottom: 30px;
+}
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .advantages {
+        width: 100%;
+        &-title {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .advantage-card-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advantage-card-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .advantage-card {
+        padding-bottom: 30px;
+    }
+ }
