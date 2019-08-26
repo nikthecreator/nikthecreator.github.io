@@ -18,6 +18,7 @@
         rel="stylesheet">
 
     <link rel="shortcut icon" href="./img/Group(1).png" type="image/png">
+    <meta name="yandex-verification" content="6123eed25444219a" />
 
     <title>ООО"СЕВАЖ"</title>
 </head>
@@ -174,7 +175,7 @@
                 <div class="first-slide">
                     <div class="sl-slide-header">
                         <div class="row">
-                            <div class="col col-12 sm-12 col-md-6 col-lg-6">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                                 <div class="one">
                                     <div class="slider-header">
                                         <h1 class="title-slider">Корпусная мебель в Гродно</h1>
@@ -191,7 +192,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col col-12 sm-12 col-md-6 col-lg-6">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
 
                             </div>
                         </div>
@@ -200,7 +201,7 @@
                 <div class="sec-slide">
                     <div class="sl-slide-header">
                         <div class="row">
-                            <div class="col col-12 sm-12 col-md-6 col-lg-6">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                                 <div class="one">
                                     <div class="slider-header">
                                         <h1 class="title-slider-black">Вам нужна помощь?</h1>
@@ -216,7 +217,7 @@
 
                                 </div>
                             </div>
-                            <div class="col col-12 sm-12 col-md-6 col-lg-6">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                                 <div class="two">
                                     <img src="./img/slider-header/call-girl.png" alt="" class="adaptive girl">
                                 </div>
@@ -800,10 +801,6 @@
         </div>
     </footer>
 
-
-
-
-
     <!-- Modal Form -->
     <div class="modal fade" id="exampleModalFooter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -816,20 +813,20 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="mail.php" method="">
                         <div class="form-group">
                             <label for="recipient-name" class="col-form-label">Введите ваше имя </label>
-                            <input type="text" class="form-control" id="recipient-name"
+                            <input type="text" class="form-control" id="recipient-name" name="user_name"
                                 placeholder="Иванов Иван Иванович">
                         </div>
                         <div class="form-group">
                             <label for="recipient-name" class="col-form-label">Введите ваш номер телефона</label>
-                            <input type="text" class="form-control" id="recipient-phone"
+                            <input type="text" class="form-control" id="recipient-phone" name="user_phone"
                                 placeholder="+375 (00) 000 00 00">
                         </div>
                         <div class="form-group">
                             <label for="message-text" class="col-form-label">Введите ваше сообщение</label>
-                            <textarea class="form-control" id="message-text"></textarea>
+                            <textarea class="form-control" id="message-text" name="user_text"></textarea>
                         </div>
                     </form>
                 </div>
